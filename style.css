@@ -1,0 +1,121 @@
+body {
+    /*background-image: url('images/pl.jpg');*/
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    font-family: 'Montserrat', sans-serif;;
+    margin: 0;
+    padding: 0;
+    background-color:#F7FAFC;
+  
+   
+    color:#2D3748;
+}
+
+header {
+    background-color: #1A202C;
+    color: #ffffff;
+    padding: 15px;
+    /*font-family: 'lobster';
+    font-size:medium;*/
+    text-shadow: 2px 2px 4px rgba(83, 82, 82, 0.5);
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 1rem;
+}
+
+header nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+main {
+    padding: 2rem;
+}
+
+#hero {
+    background-color: #2D3748;
+    box-shadow: #0c0b0b;
+    color: #EDF2F7;
+    padding: 2rem;
+    text-align: center;
+    border-radius: 30px;
+    box-shadow: #111313;
+    font-family: 'lobster';
+    font-size: 2em;
+   }
+  /* Container for the featured projects section */
+#featured-projects {
+    padding: 30px; /* Adds padding around the section */
+    text-align: center; /* Centers the heading */
+  }
+  
+  /* Style for the heading */
+  #featured-projects h2 {
+    margin-bottom: 0px; /* Adds space below the heading */
+    font-size: 24px; /* Adjust font size as needed */
+    font-weight: bold; /* Makes the heading bold */
+  }
+  
+  
+  
+  
+  /* Style for each project card */
+  .project {
+    background: #c8dcee; /* Background color */
+    border: 1px solid #080808; /* Border around the card */
+    border-radius: 5px; /* Rounded corners */
+    padding: 20px; /* Padding inside the card */
+    box-sizing: border-box; /* Includes padding and border in width */
+    text-align: center; /* Centers text inside the card */
+    flex: 1 1 calc(50% - 20px); /* 2 items per row */
+    max-width: 500px; /* Optional: limits the width of each card */
+  }
+/*stye for pencil art*/
+  .slides {
+    background: #c8dcee; /* Background color */
+    border: 1px solid #080808; /* Border around the card */
+    border-radius: 5px; /* Rounded corners */
+    padding: 20px; /* Padding inside the card */
+    box-sizing: border-box; /* Includes padding and border in width */
+    text-align: center; /* Centers text inside the card */
+    flex: 1 1 calc(50% - 20px); /* 2 items per row */
+    max-width: 500px; /* Optional: limits the width of each card */
+  }
+  
+  /* Style for images inside project cards */
+  .project img {
+    max-width: 100%; /* Ensures images fit within the card */
+    height: auto; /* Maintains aspect ratio */
+    margin-bottom: 15px; /* Space below the image */
+  }
+  
+  /* Responsive design for smaller screens */
+  @media (max-width: 768px) {
+    .project {
+      flex: 1 1 calc(100% - 20px); /* 1 item per row on medium screens */
+    }
+  }
+  
+
+footer {
+    background-color: #1A202C;
+    color:#A0AEC0;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}          
+
+
+
+
+  
